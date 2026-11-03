@@ -1,0 +1,146 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Lớp trưởng Admin",
+      "email": "admin@ptit.edu.vn",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": "u2",
+      "name": "Nguyễn Văn Sinh Viên",
+      "email": "sv@ptit.edu.vn",
+      "password": "sv123456",
+      "role": "user"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "s1",
+      "slug": "lap-trinh-web-nang-cao",
+      "name": "Lập trình Web nâng cao",
+      "teacher": "TS. Nguyễn Văn A",
+      "credits": 3
+    },
+    {
+      "id": "s2",
+      "slug": "co-so-du-lieu-phan-tan",
+      "name": "Cơ sở dữ liệu phân tán",
+      "teacher": "PGS.TS. Trần Thị B",
+      "credits": 3
+    },
+    {
+      "id": "s3",
+      "slug": "an-toan-bao-mat-he-thong",
+      "name": "An toàn bảo mật hệ thống",
+      "teacher": "TS. Lê Hoàng C",
+      "credits": 3
+    },
+    {
+      "id": "s4",
+      "slug": "phat-trien-ung-dung-di-dong",
+      "name": "Phát triển ứng dụng di động",
+      "teacher": "ThS. Phạm Minh D",
+      "credits": 3
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "1",
+      "title": "Bài thực hành 1: Ôn tập React & TypeScript",
+      "subjectSlug": "lap-trinh-web-nang-cao",
+      "dueDate": "2026-10-15",
+      "desc": "Hoàn thành ứng dụng quản lý công việc cá nhân bằng React kết hợp TypeScript cơ bản.",
+      "doneBy": ["u1", "u2"]
+    },
+    {
+      "id": "2",
+      "title": "Bài thực hành 2: App Router & Data Fetching",
+      "subjectSlug": "lap-trinh-web-nang-cao",
+      "dueDate": "2026-10-28",
+      "desc": "Xây dựng các trang danh sách và chi tiết sản phẩm sử dụng Server Component.",
+      "doneBy": ["u1"]
+    },
+    {
+      "id": "3",
+      "title": "Bài thực hành 3: Xây dựng Class Deadline Hub",
+      "subjectSlug": "lap-trinh-web-nang-cao",
+      "dueDate": "2026-11-15",
+      "desc": "Áp dụng SSG, ISR, SSR, NextAuth JWT, phân quyền RBAC và tối ưu hóa SEO.",
+      "doneBy": []
+    },
+    {
+      "id": "4",
+      "title": "Báo cáo tiểu luận giữa kỳ CSDL phân tán",
+      "subjectSlug": "co-so-du-lieu-phan-tan",
+      "dueDate": "2026-10-20",
+      "desc": "Thiết kế lược đồ phân mảnh ngang và phân mảnh dọc cho hệ thống quản lý ngân hàng.",
+      "doneBy": ["u2"]
+    },
+    {
+      "id": "5",
+      "title": "Cài đặt thuật toán đồng thuận 2PC",
+      "subjectSlug": "co-so-du-lieu-phan-tan",
+      "dueDate": "2026-11-12",
+      "desc": "Viết chương trình mô phỏng giao thức cam kết hai pha giữa 3 node cơ sở dữ liệu.",
+      "doneBy": []
+    },
+    {
+      "id": "6",
+      "title": "Tối ưu hóa truy vấn phân tán trên PostgreSQL",
+      "subjectSlug": "co-so-du-lieu-phan-tan",
+      "dueDate": "2026-11-25",
+      "desc": "Đo đạc thời gian thực thi truy vấn liên trạm và viết báo cáo so sánh chi phí truyền thông.",
+      "doneBy": []
+    },
+    {
+      "id": "7",
+      "title": "Lab 1: Phân tích lỗ hổng SQL Injection & XSS",
+      "subjectSlug": "an-toan-bao-mat-he-thong",
+      "dueDate": "2026-10-18",
+      "desc": "Thực hành khai thác và vá lỗi SQLi, Reflected XSS trên môi trường máy ảo DVWA.",
+      "doneBy": ["u1", "u2"]
+    },
+    {
+      "id": "8",
+      "title": "Lab 2: Cấu hình tường lửa iptables và IDS Snort",
+      "subjectSlug": "an-toan-bao-mat-he-thong",
+      "dueDate": "2026-11-10",
+      "desc": "Thiết lập tập luật chặn quét cổng Nmap và cảnh báo tấn công DoS nội bộ.",
+      "doneBy": ["u1"]
+    },
+    {
+      "id": "9",
+      "title": "Đồ án môn học: Kiểm thử xâm nhập Web App",
+      "subjectSlug": "an-toan-bao-mat-he-thong",
+      "dueDate": "2026-12-01",
+      "desc": "Kiểm tra bảo mật theo chuẩn OWASP Top 10 và lập báo cáo khắc phục lỗ hổng.",
+      "doneBy": []
+    },
+    {
+      "id": "10",
+      "title": "Bài tập giao diện màn hình đăng nhập Mobile",
+      "subjectSlug": "phat-trien-ung-dung-di-dong",
+      "dueDate": "2026-10-22",
+      "desc": "Thiết kế form đăng nhập, đăng ký và kiểm tra dữ liệu đầu vào trên thiết bị di động.",
+      "doneBy": ["u2"]
+    },
+    {
+      "id": "11",
+      "title": "Tích hợp REST API và lưu trữ cục bộ SQLite",
+      "subjectSlug": "phat-trien-ung-dung-di-dong",
+      "dueDate": "2026-11-18",
+      "desc": "Đồng bộ danh sách lịch học từ server về máy và hỗ trợ xem ngoại tuyến.",
+      "doneBy": []
+    },
+    {
+      "id": "12",
+      "title": "Bảo vệ đồ án cuối kỳ ứng dụng di động",
+      "subjectSlug": "phat-trien-ung-dung-di-dong",
+      "dueDate": "2026-12-05",
+      "desc": "Nộp source code, file APK và slide thuyết trình nhóm trước hội đồng chấm thi.",
+      "doneBy": []
+    }
+  ]
+}
