@@ -9,6 +9,7 @@ const font = Be_Vietnam_Pro({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXTAUTH_URL || ['http:', '', 'localhost:3000'].join('/')),
   title: 'Class Deadline Hub',
   description: 'Cổng thông tin theo dõi hạn nộp bài tập và đồ án của lớp học tại PTIT.',
 }

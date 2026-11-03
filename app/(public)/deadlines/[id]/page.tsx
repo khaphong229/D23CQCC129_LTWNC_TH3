@@ -22,9 +22,7 @@ export function generateMetadata({
   const item = data.deadlines.find((d) => d.id === params.id)
 
   if (!item) {
-    return {
-      title: 'Không tìm thấy Deadline - Class Deadline Hub',
-    }
+    notFound()
   }
 
   const sub = data.subjects.find((s) => s.slug === item.subjectSlug)
